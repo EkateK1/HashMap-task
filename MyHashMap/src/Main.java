@@ -7,10 +7,13 @@ public class Main {
         hashMap.put("key3", 3);
         System.out.println(hashMap.getting.get("key1"));
         System.out.println(hashMap.isin.in("key2"));
+        hashMap.put("key3", 4);
         hashMap.print();
         System.out.println("______________________________");
-        hashMap.remowe("key3");
+        hashMap.remove("key3");
         hashMap.print();
-
+        hashMap.put("key4", 4);
+        System.out.println("______________________________");
+        hashMap.print();
     }
 }
